@@ -1,0 +1,16 @@
+For the Ticketing-SCD reconciliation:
+-	Is it possible for the output to include the Ticket and SCD Transaction numbers? 
+-	Can the checks also be done on the settlement dates, trade dates, funding currency, SCD ID and Model Portfolio?
+-	Can a list of all the non-matched (i.e. not found, no record) transactions be extracted? It is possible to indicate why (no ticket, no SCD trx, Ticket is do not send to SCD, etc.)?
+
+For the holdings reconciliation: 
+A few versions of our daily holdings reconciliation, the procedure document and a deck for the elimination of printing are saved here: S:\MWynne\Holdings Reconciliation
+The procedure document needs to be updated, but is still quite relevant and should provide a decent overview of the reconciliation. 
+Like most of our reconciliations, this one is Excel based. The VBA is only for the workflow and to capture the final reviewed version as a PDF.
+For the reconciliation tab, the main output is between columns U to Z. The colour coding means:
+-	Pink = variance
+-	Gray = realized investment
+-	Blue = many to one roll up
+-	Green = no material deviation
+-	Yellow = action required
+Basically, we are taking the Investran holdings, and comparing them to the SCD holdings using a unique ID (SCD ID + Model Portfolio). There is a check on the HERBI tab (columns X to Z). 

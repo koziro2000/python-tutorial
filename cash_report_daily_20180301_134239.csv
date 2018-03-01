@@ -1,0 +1,315 @@
+Deal ID,Issuer ID,Position ID,Batch Status,Batch ID,Effective Date,GL Date,Transaction Currency,Trans Type,Amount (Legal Entity),Amount (Local),Comments transaction,Comments Batch
+3922,9046,12113,Draft,104589,2017-10-03,2017-10-03,USD,Interest Income,209415.15,167438.35,20171003003368,WSO Accounting Entries for 2017-10-03
+3922,9046,12113,Draft,104589,2017-10-03,2017-10-03,USD,Realized FX Gains/Losses,-407818.24,0.00,20171003003368,WSO Accounting Entries for 2017-10-03
+3922,9046,12113,Draft,104589,2017-10-03,2017-10-03,USD,Realized Market Gains/Losses - Current,176310.87,132498.38,20171003003368,WSO Accounting Entries for 2017-10-03
+3922,9046,12113,Draft,104589,2017-10-03,2017-10-03,USD,Return of Capital - Permanent,6607266.57,4965254.24,20171003003368,WSO Accounting Entries for 2017-10-03
+3922,9047,12112,Draft,104589,2017-10-03,2017-10-03,USD,Cash Received,-6585174.35,-5265190.97,20171003003368,WSO Accounting Entries for 2017-10-03
+3780,8914,11986,Draft,104590,2017-10-13,2017-10-13,USD,Interest Income,44851.80,35937.50,20171013000953,WSO Accounting Entries for 2017-10-13
+3780,8914,11986,Draft,104590,2017-10-13,2017-10-13,USD,Realized FX Gains/Losses,-209466.00,0.00,20171013000953,WSO Accounting Entries for 2017-10-13
+3780,8914,11986,Draft,104590,2017-10-13,2017-10-13,USD,Realized Market Gains/Losses - Current,305237.63,232500.00,20171013000953,WSO Accounting Entries for 2017-10-13
+3780,8914,11986,Draft,104590,2017-10-13,2017-10-13,USD,Return of Capital - Permanent,3938550.00,3000000.00,20171013000953,WSO Accounting Entries for 2017-10-13
+3780,8915,11985,Draft,104590,2017-10-13,2017-10-13,USD,Cash Received,-4079173.43,-3268437.50,20171013000953,WSO Accounting Entries for 2017-10-13
+3218,7387,9820,Draft,104591,2017-11-30,2017-11-30,USD,Investment Capital,-1271900.00,-1000000.00,,Testing I2T Functionality after deal name change
+3218,7388,9819,Draft,104591,2017-11-30,2017-11-30,USD,Cash Disbursed,1271900.00,1000000.00,,Testing I2T Functionality after deal name change
+3219,7390,9817,Draft,104592,2017-11-30,2017-11-30,USD,Investment Capital,-2543800.00,-2000000.00,,Testing I2T Functionality after deal name change
+3219,7392,9818,Draft,104592,2017-11-30,2017-11-30,USD,Cash Disbursed,2543800.00,2000000.00,,Testing I2T Functionality after deal name change
+3272,7563,10031,Held,104593,2017-12-06,2017-12-06,CAD,Cash Received,-21852659.00,-21852659.00,,test
+3272,7828,10387,Held,104593,2017-12-06,2017-12-06,CAD,Realized Market Gains/Losses - Current,139657.02,139657.02,,test
+3272,7828,10387,Held,104593,2017-12-06,2017-12-06,CAD,Realized Market Gains/Losses - Historic,1712946.98,1712946.98,,test
+3272,7828,10387,Held,104593,2017-12-06,2017-12-06,CAD,Return of Capital - Permanent,20000055.00,20000055.00,,test
+30005,0,0,Held,104594,2017-12-08,2017-12-08,USD,Deal Commitments,200000000.00,200000000.00,,Deal Commitments
+30005,8384,12127,Held,104595,2017-12-06,2017-12-06,USD,Investment Capital,-6359500.00,-5000000.00,,test funding
+30005,10008,12125,Held,104595,2017-12-06,2017-12-06,USD,Cash Disbursed,19078500.00,15000000.00,,test funding
+30005,10009,12126,Held,104595,2017-12-06,2017-12-06,USD,Investment Capital,-12719000.00,-10000000.00,,test funding
+3753,8120,11893,Draft,104596,2017-12-15,2017-12-15,USD,Investment Capital,-27199061.11,-21444444.44,Trade Basis: Asset Buy,WSO Accounting Entries for 2017-12-15
+3753,8120,11893,Draft,104596,2017-12-15,2017-12-15,USD,Investment Capital,271990.61,214444.44,Trade Basis: Discount/Premium Buy,WSO Accounting Entries for 2017-12-15
+3753,8121,11894,Draft,104596,2017-12-15,2017-12-15,USD,Cash Disbursed,27199061.11,21444444.44,Trade Basis: Asset Buy,WSO Accounting Entries for 2017-12-15
+3753,8121,11894,Draft,104596,2017-12-15,2017-12-15,USD,Cash Received,-271990.61,-214444.44,Trade Basis: Discount/Premium Buy,WSO Accounting Entries for 2017-12-15
+3223,7402,9838,Draft,104597,2017-12-15,2017-12-15,MXN,Interest Income,2427214.27,35774309.33,Interest Income,WSO Accounting Entries for 2017-12-15
+3223,7402,9838,Draft,104597,2017-12-15,2017-12-15,MXN,Realized FX Gains/Losses,-21139987.42,0.00,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3223,7402,9838,Draft,104597,2017-12-15,2017-12-15,MXN,Realized Market Gains/Losses - Current,4637460.47,56642461.15,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3223,7402,9838,Draft,104597,2017-12-15,2017-12-15,MXN,Return of Capital - Permanent,-4637460.47,-56642461.15,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3223,7402,9838,Draft,104597,2017-12-15,2017-12-15,MXN,Return of Capital - Permanent,2419825.38,29556018.05,Paydown Premium,WSO Accounting Entries for 2017-12-15
+3223,7402,9838,Draft,104597,2017-12-15,2017-12-15,MXN,Return of Capital - Permanent,120991269.16,1477800902.39,Unscheduled Paydown,WSO Accounting Entries for 2017-12-15
+3223,7403,9839,Draft,104597,2017-12-15,2017-12-15,MXN,Cash Received,-100265791.29,-1477800902.39,Unscheduled Paydown,WSO Accounting Entries for 2017-12-15
+3223,7403,9839,Draft,104597,2017-12-15,2017-12-15,MXN,Cash Received,-2427214.27,-35774309.33,Interest Income,WSO Accounting Entries for 2017-12-15
+3223,7403,9839,Draft,104597,2017-12-15,2017-12-15,MXN,Cash Received,-2005315.83,-29556018.05,Paydown Premium,WSO Accounting Entries for 2017-12-15
+3486,8195,10894,Draft,104597,2017-12-15,2017-12-15,USD,Cash Disbursed,3805.05,3000.00,Income Tax - Investment Related,WSO Accounting Entries for 2017-12-15
+3486,8196,10895,Draft,104597,2017-12-15,2017-12-15,USD,Income Tax - Investment Related,-3805.05,-3000.00,Income Tax - Investment Related,WSO Accounting Entries for 2017-12-15
+3595,8440,11232,Draft,104597,2017-12-15,2017-12-15,USD,Cash Received,-71010098.38,-55986201.27,Unscheduled LIBOR Paydown,WSO Accounting Entries for 2017-12-15
+3595,8440,11232,Draft,104597,2017-12-15,2017-12-15,USD,Cash Received,-770907.09,-607803.12,LIBOR Interest,WSO Accounting Entries for 2017-12-15
+3595,8441,11233,Draft,104597,2017-12-15,2017-12-15,USD,Interest Income,770907.09,607803.12,LIBOR Interest,WSO Accounting Entries for 2017-12-15
+3595,8441,11233,Draft,104597,2017-12-15,2017-12-15,USD,Realized FX Gains/Losses,-6925493.10,0.00,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3595,8441,11233,Draft,104597,2017-12-15,2017-12-15,USD,Realized Market Gains/Losses - Current,3771926.70,2709620.13,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3595,8441,11233,Draft,104597,2017-12-15,2017-12-15,USD,Return of Capital - Permanent,-3771926.70,-2709620.13,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3595,8441,11233,Draft,104597,2017-12-15,2017-12-15,USD,Return of Capital - Permanent,77935591.48,55986201.27,Unscheduled LIBOR Paydown,WSO Accounting Entries for 2017-12-15
+3596,8440,11234,Draft,104597,2017-12-15,2017-12-15,USD,Cash Received,-48331370.94,-38105705.00,Unscheduled LIBOR Paydown,WSO Accounting Entries for 2017-12-15
+3596,8440,11234,Draft,104597,2017-12-15,2017-12-15,USD,Cash Received,-696544.84,-549174.00,LIBOR Interest,WSO Accounting Entries for 2017-12-15
+3596,8440,11234,Draft,104597,2017-12-15,2017-12-15,USD,Cash Received,-211044.43,-166392.90,Interest Income,WSO Accounting Entries for 2017-12-15
+3596,8441,11235,Draft,104597,2017-12-15,2017-12-15,USD,Interest Income,211044.43,166392.90,Interest Income,WSO Accounting Entries for 2017-12-15
+3596,8441,11235,Draft,104597,2017-12-15,2017-12-15,USD,Interest Income,696544.84,549174.00,LIBOR Interest,WSO Accounting Entries for 2017-12-15
+3596,8441,11235,Draft,104597,2017-12-15,2017-12-15,USD,Realized FX Gains/Losses,-4713675.71,0.00,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3596,8441,11235,Draft,104597,2017-12-15,2017-12-15,USD,Realized Market Gains/Losses - Current,2567274.00,1844239.79,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3596,8441,11235,Draft,104597,2017-12-15,2017-12-15,USD,Return of Capital - Permanent,-2567274.00,-1844239.79,General Period - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2017-12-15
+3596,8441,11235,Draft,104597,2017-12-15,2017-12-15,USD,Return of Capital - Permanent,53045046.65,38105705.00,Unscheduled LIBOR Paydown,WSO Accounting Entries for 2017-12-15
+3753,8120,11893,Draft,104597,2017-12-15,2017-12-15,USD,Bridge/Commitment Fees,-271990.61,-214444.44,Bridge Fees,WSO Accounting Entries for 2017-12-15
+3753,8121,11894,Draft,104597,2017-12-15,2017-12-15,USD,Cash Disbursed,271990.61,214444.44,Bridge Fees,WSO Accounting Entries for 2017-12-15
+3497,8206,10917,Held,104598,2017-12-01,2017-12-01,CAD,Acquisition Costs,944522.93,944522.93,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104598,2017-12-01,2017-12-01,CAD,Cash Received,-949571.75,-949571.75,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104598,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,5048.82,5048.82,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104599,2017-12-01,2017-12-01,CAD,Acquisition Costs,3506.82,3506.82,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104599,2017-12-01,2017-12-01,CAD,Cash Received,-3506.82,-3506.82,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104600,2017-12-01,2017-12-01,CAD,Cash Received,-6318.42,-6318.42,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104600,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,6318.42,6318.42,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104601,2017-12-01,2017-12-01,CAD,Acquisition Costs,6559.68,6559.68,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104601,2017-12-01,2017-12-01,CAD,Cash Received,-6559.68,-6559.68,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104602,2017-12-01,2017-12-01,CAD,Acquisition Costs,5670.07,5670.07,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104602,2017-12-01,2017-12-01,CAD,Cash Received,-6683.11,-6683.11,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104602,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,1013.04,1013.04,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3771,8889,11961,Held,104602,2017-12-01,2017-12-01,USD,Acquisition Costs,-5670.06,-4453.05,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3771,8889,11961,Held,104602,2017-12-01,2017-12-01,USD,Cash Disbursed,6683.09,5248.65,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3771,8889,11961,Held,104602,2017-12-01,2017-12-01,USD,Partnership Expenses Outside Commitment,-1013.03,-795.60,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104603,2017-12-01,2017-12-01,CAD,Acquisition Costs,106629.23,106629.23,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104603,2017-12-01,2017-12-01,CAD,Cash Received,-106629.23,-106629.23,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104604,2017-12-01,2017-12-01,CAD,Acquisition Costs,209.31,209.31,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104604,2017-12-01,2017-12-01,CAD,Cash Received,-209.31,-209.31,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104605,2017-12-01,2017-12-01,CAD,Acquisition Costs,16272.00,16272.00,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104605,2017-12-01,2017-12-01,CAD,Cash Received,-16272.00,-16272.00,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104606,2017-12-01,2017-12-01,CAD,Acquisition Costs,18724.02,18724.02,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104606,2017-12-01,2017-12-01,CAD,Cash Received,-18724.02,-18724.02,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104607,2017-12-01,2017-12-01,CAD,Acquisition Costs,368.38,368.38,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104607,2017-12-01,2017-12-01,CAD,Cash Received,-368.38,-368.38,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104608,2017-12-01,2017-12-01,CAD,Acquisition Costs,106476.51,106476.51,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104608,2017-12-01,2017-12-01,CAD,Cash Received,-106476.51,-106476.51,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104609,2017-12-01,2017-12-01,CAD,Cash Received,-120035.76,-120035.76,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104609,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,120035.76,120035.76,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3516,8268,10996,Held,104609,2017-12-01,2017-12-01,USD,Cash Disbursed,120035.76,94271.39,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3516,8268,10996,Held,104609,2017-12-01,2017-12-01,USD,Partnership Expenses Outside Commitment,-120035.76,-94271.39,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104610,2017-12-01,2017-12-01,CAD,Acquisition Costs,102606.05,102606.05,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104610,2017-12-01,2017-12-01,CAD,Cash Received,-102606.05,-102606.05,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104611,2017-12-01,2017-12-01,CAD,Acquisition Costs,811.60,811.60,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104611,2017-12-01,2017-12-01,CAD,Cash Received,-811.60,-811.60,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104612,2017-12-01,2017-12-01,CAD,Acquisition Costs,21423.26,21423.26,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104612,2017-12-01,2017-12-01,CAD,Cash Received,-21423.26,-21423.26,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104613,2017-12-01,2017-12-01,CAD,Acquisition Costs,111952.34,111952.34,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104613,2017-12-01,2017-12-01,CAD,Cash Received,-111952.34,-111952.34,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104614,2017-12-01,2017-12-01,CAD,Acquisition Costs,445099.75,445099.75,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104614,2017-12-01,2017-12-01,CAD,Cash Received,-445099.75,-445099.75,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104615,2017-12-01,2017-12-01,CAD,Acquisition Costs,60433.12,60433.12,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104615,2017-12-01,2017-12-01,CAD,Cash Received,-60433.12,-60433.12,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104616,2017-12-01,2017-12-01,CAD,Acquisition Costs,21485.81,21485.81,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104616,2017-12-01,2017-12-01,CAD,Cash Received,-21485.81,-21485.81,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104617,2017-12-01,2017-12-01,CAD,Acquisition Costs,685551.55,685551.55,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104617,2017-12-01,2017-12-01,CAD,Cash Received,-685551.55,-685551.55,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104618,2017-12-01,2017-12-01,CAD,Acquisition Costs,29226.87,29226.87,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104618,2017-12-01,2017-12-01,CAD,Cash Received,-29226.87,-29226.87,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104619,2017-12-01,2017-12-01,CAD,Acquisition Costs,29226.87,29226.87,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104619,2017-12-01,2017-12-01,CAD,Cash Received,-29226.87,-29226.87,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104620,2017-12-01,2017-12-01,CAD,Acquisition Costs,40011.49,40011.49,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104620,2017-12-01,2017-12-01,CAD,Cash Received,-40536.05,-40536.05,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104620,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,524.56,524.56,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104621,2017-12-01,2017-12-01,CAD,Acquisition Costs,93698.22,93698.22,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104621,2017-12-01,2017-12-01,CAD,Cash Received,-93698.22,-93698.22,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104622,2017-12-01,2017-12-01,CAD,Cash Received,-3493.96,-3493.96,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104622,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,3493.96,3493.96,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104623,2017-12-01,2017-12-01,CAD,Acquisition Costs,571.89,571.89,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104623,2017-12-01,2017-12-01,CAD,Cash Received,-571.89,-571.89,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104624,2017-12-01,2017-12-01,CAD,Acquisition Costs,3262.67,3262.67,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104624,2017-12-01,2017-12-01,CAD,Cash Received,-3262.67,-3262.67,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104625,2017-12-01,2017-12-01,CAD,Acquisition Costs,7925.24,7925.24,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104625,2017-12-01,2017-12-01,CAD,Cash Received,-9792.28,-9792.28,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104625,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,1867.04,1867.04,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104626,2017-12-01,2017-12-01,CAD,Cash Received,-1353.18,-1353.18,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104626,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,1353.18,1353.18,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3686,8663,11629,Held,104626,2017-12-01,2017-12-01,EUR,Cash Disbursed,1353.18,895.58,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3686,8663,11629,Held,104626,2017-12-01,2017-12-01,EUR,Partnership Expenses Outside Commitment,-1353.18,-895.58,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104627,2017-12-01,2017-12-01,CAD,Cash Received,-5039.00,-5039.00,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104627,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,5039.00,5039.00,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3697,8693,11672,Held,104627,2017-12-01,2017-12-01,USD,Cash Disbursed,5038.99,3957.43,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3697,8693,11672,Held,104627,2017-12-01,2017-12-01,USD,Partnership Expenses Outside Commitment,-5038.99,-3957.43,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104628,2017-12-01,2017-12-01,CAD,Acquisition Costs,94311.63,94311.63,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104628,2017-12-01,2017-12-01,CAD,Cash Received,-94311.63,-94311.63,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104629,2017-12-01,2017-12-01,CAD,Acquisition Costs,49777.29,49777.29,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104629,2017-12-01,2017-12-01,CAD,Cash Received,-49777.29,-49777.29,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104630,2017-12-01,2017-12-01,CAD,Cash Received,-5741.35,-5741.35,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104630,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,5741.35,5741.35,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3685,8662,11628,Held,104630,2017-12-01,2017-12-01,EUR,Cash Disbursed,5741.34,3799.80,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3685,8662,11628,Held,104630,2017-12-01,2017-12-01,EUR,Partnership Expenses Outside Commitment,-5741.34,-3799.80,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+2909,6488,8362,Held,104631,2017-12-01,2017-12-01,USD,Cash Disbursed,3493.96,2744.02,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+2909,6488,8362,Held,104631,2017-12-01,2017-12-01,USD,Partnership Expenses Outside Commitment,-3493.96,-2744.02,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104631,2017-12-01,2017-12-01,CAD,Cash Received,-3493.96,-3493.96,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104631,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,3493.96,3493.96,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104632,2017-12-01,2017-12-01,CAD,Acquisition Costs,84707.85,84707.85,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104632,2017-12-01,2017-12-01,CAD,Cash Received,-84707.85,-84707.85,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104633,2017-12-01,2017-12-01,CAD,Cash Received,-6386.85,-6386.85,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104633,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,6386.85,6386.85,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3639,8569,11461,Held,104633,2017-12-01,2017-12-01,EUR,Cash Disbursed,6386.84,4227.01,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3639,8569,11461,Held,104633,2017-12-01,2017-12-01,EUR,Partnership Expenses Outside Commitment,-6386.84,-4227.01,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104634,2017-12-01,2017-12-01,CAD,Acquisition Costs,3503.40,3503.40,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104634,2017-12-01,2017-12-01,CAD,Cash Received,-3503.40,-3503.40,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104635,2017-12-01,2017-12-01,CAD,Acquisition Costs,138715.33,138715.33,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104635,2017-12-01,2017-12-01,CAD,Cash Received,-138715.33,-138715.33,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104636,2017-12-01,2017-12-01,CAD,Acquisition Costs,3247.63,3247.63,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104636,2017-12-01,2017-12-01,CAD,Cash Received,-3247.63,-3247.63,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3767,8864,11932,Held,104636,2017-12-01,2017-12-01,USD,Acquisition Costs,-3247.62,-2550.56,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3767,8864,11932,Held,104636,2017-12-01,2017-12-01,USD,Cash Disbursed,3247.62,2550.56,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104637,2017-12-01,2017-12-01,CAD,Acquisition Costs,270.64,270.64,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104637,2017-12-01,2017-12-01,CAD,Cash Received,-5850.91,-5850.91,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104637,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,5580.27,5580.27,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3765,8860,11927,Held,104637,2017-12-01,2017-12-01,USD,Acquisition Costs,-270.63,-212.55,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3765,8860,11927,Held,104637,2017-12-01,2017-12-01,USD,Cash Disbursed,5850.90,4595.08,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3765,8860,11927,Held,104637,2017-12-01,2017-12-01,USD,Partnership Expenses Outside Commitment,-5580.27,-4382.53,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104638,2017-12-01,2017-12-01,CAD,Cash Received,-3674.82,-3674.82,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104638,2017-12-01,2017-12-01,CAD,Partnership Expenses Outside Commitment,3674.82,3674.82,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3663,8615,11545,Held,104638,2017-12-01,2017-12-01,USD,Cash Disbursed,3674.82,2886.06,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3663,8615,11545,Held,104638,2017-12-01,2017-12-01,USD,Partnership Expenses Outside Commitment,-3674.82,-2886.06,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104639,2017-12-01,2017-12-01,CAD,Acquisition Costs,22970.01,22970.01,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104639,2017-12-01,2017-12-01,CAD,Cash Received,-22970.01,-22970.01,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104640,2017-12-01,2017-12-01,CAD,Acquisition Costs,152937.07,152937.07,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104640,2017-12-01,2017-12-01,CAD,Cash Received,-152937.07,-152937.07,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104641,2017-12-01,2017-12-01,CAD,Acquisition Costs,9339.57,9339.57,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104641,2017-12-01,2017-12-01,CAD,Cash Received,-9339.57,-9339.57,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104642,2017-12-01,2017-12-01,CAD,Acquisition Costs,58648.73,58648.73,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3497,8206,10917,Held,104642,2017-12-01,2017-12-01,CAD,Cash Received,-58648.73,-58648.73,,CVC Intercompany Reclass - [Corporate Expenses - Funds (VCC) ] and [XXXXX]
+3338,7760,10302,Held,104643,2018-01-01,2018-01-01,USD,Investment Capital - Credit Facility,1268350.00,1000000.00,,Test - net zero cap call for wirelss logic
+3338,8078,10747,Held,104643,2018-01-01,2018-01-01,USD,Investment Capital,-1268350.00,-1000000.00,Test - net zero for follow on investment in Wireless logic,Test - net zero cap call for wirelss logic
+3338,7760,10302,Held,104644,2018-01-25,2018-01-25,USD,Investment Capital - Credit Facility,2507200.00,2000000.00,,Test - net zero cap call for kount - new trans type
+3338,8534,11394,Held,104644,2018-01-25,2018-01-25,USD,Investment Capital - Credit Facility,-2507200.00,-2000000.00,"Test - follow on inv in kount, new trans type",Test - net zero cap call for kount - new trans type
+3338,7760,10302,Held,104645,2018-01-29,2018-01-29,USD,Cash Disbursed,1253600.00,1000000.00,,Test - repay wirelss LOC
+3338,7760,10302,Held,104645,2018-01-29,2018-01-29,USD,Investment Capital - Credit Facility,-1253600.00,-1000000.00,,Test - repay wirelss LOC
+3338,7760,10302,Held,104646,2018-01-31,2018-01-31,USD,Cash Disbursed,2507200.00,2000000.00,,Test - replay kount LOC - new trans type
+3338,7760,10302,Held,104646,2018-01-31,2018-01-31,USD,Investment Capital - Credit Facility,-2507200.00,-2000000.00,,Test - replay kount LOC - new trans type
+3338,8534,11394,Held,104646,2018-01-31,2018-01-31,USD,Investment Capital,-2507200.00,-2000000.00,,Test - replay kount LOC - new trans type
+3338,8534,11394,Held,104646,2018-01-31,2018-01-31,USD,Investment Capital - Credit Facility,2507200.00,2000000.00,,Test - replay kount LOC - new trans type
+3530,8314,11059,Draft,104647,2018-01-31,2018-01-31,USD,Cash Received,-921617.85,-735176.97,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3530,8315,11060,Draft,104647,2018-01-31,2018-01-31,USD,Interest Income,921617.85,735176.97,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3753,8120,11893,Draft,104647,2018-01-31,2018-01-31,USD,Bridge/Commitment Fees,129839.98,103573.69,Commitment Fees,WSO Accounting Entries for 2018-01-31
+3753,8120,11893,Draft,104647,2018-01-31,2018-01-31,USD,Interest Income,3596145.42,2868654.61,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3753,8121,11894,Draft,104647,2018-01-31,2018-01-31,USD,Cash Received,-3596145.42,-2868654.61,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3753,8121,11894,Draft,104647,2018-01-31,2018-01-31,USD,Cash Received,-129839.98,-103573.69,Commitment Fees,WSO Accounting Entries for 2018-01-31
+3761,8855,11917,Draft,104647,2018-01-31,2018-01-31,USD,Cash Received,-1512844.51,-1206800.02,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3761,8856,11918,Draft,104647,2018-01-31,2018-01-31,USD,Interest Income,1512844.51,1206800.02,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3763,8876,11947,Draft,104647,2018-01-31,2018-01-31,EUR,Interest Income,386635.42,260677.08,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3763,8877,11948,Draft,104647,2018-01-31,2018-01-31,EUR,Cash Received,-386635.42,-260677.08,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3777,8900,11971,Draft,104647,2018-01-31,2018-01-31,PLN,Interest Income,-21423.42,-60771.18,Interest Income,WSO Accounting Entries for 2018-01-31
+3777,8900,11971,Draft,104647,2018-01-31,2018-01-31,PLN,Interest Income,242798.73,688739.95,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3777,8901,11972,Draft,104647,2018-01-31,2018-01-31,PLN,Cash Disbursed,21423.42,60771.18,Interest Income,WSO Accounting Entries for 2018-01-31
+3777,8901,11972,Draft,104647,2018-01-31,2018-01-31,PLN,Cash Received,-242798.73,-688739.95,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3789,8940,12009,Draft,104647,2018-01-31,2018-01-31,USD,Interest Income,-493.28,-393.49,Interest Income,WSO Accounting Entries for 2018-01-31
+3789,8940,12009,Draft,104647,2018-01-31,2018-01-31,USD,Interest Income,554780.86,442550.14,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3789,8940,12009,Draft,104647,2018-01-31,2018-01-31,USD,Realized FX Gains/Losses,-17412.08,0.00,General Period (Paydown) - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2018-01-31
+3789,8940,12009,Draft,104647,2018-01-31,2018-01-31,USD,Realized Market Gains/Losses - Current,8081.74,6169.03,General Period (Paydown) - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2018-01-31
+3789,8940,12009,Draft,104647,2018-01-31,2018-01-31,USD,Return of Capital - Permanent,-8081.74,-6169.03,General Period (Paydown) - Realized Market Gains/Losses - Current,WSO Accounting Entries for 2018-01-31
+3789,8940,12009,Draft,104647,2018-01-31,2018-01-31,USD,Return of Capital - Permanent,404086.81,308451.44,LIBOR Paydown,WSO Accounting Entries for 2018-01-31
+3789,8941,12008,Draft,104647,2018-01-31,2018-01-31,USD,Cash Disbursed,493.28,393.49,Interest Income,WSO Accounting Entries for 2018-01-31
+3789,8941,12008,Draft,104647,2018-01-31,2018-01-31,USD,Cash Received,-554780.86,-442550.14,LIBOR Interest,WSO Accounting Entries for 2018-01-31
+3789,8941,12008,Draft,104647,2018-01-31,2018-01-31,USD,Cash Received,-386674.73,-308451.44,LIBOR Paydown,WSO Accounting Entries for 2018-01-31
+3110,6998,9301,Draft,104648,2018-01-25,2018-01-25,USD,Royalty Income,35554.31,28361.77,Royalty Income - Standard,WSO Accounting Entries for 2018-01-25
+3110,6999,9302,Draft,104648,2018-01-25,2018-01-25,USD,Cash Received,-35554.31,-28361.77,Royalty Income - Standard,WSO Accounting Entries for 2018-01-25
+2645,5520,6749,Draft,104649,2017-12-22,2017-12-22,USD,Cash Received,-12683.50,-10000.00,Trade Basis: Asset Sell,WSO Accounting Entries for 2017-12-22
+2645,5520,6749,Draft,104649,2017-12-22,2017-12-22,USD,Cash Received,-152.20,-120.00,Broker Commissions,WSO Accounting Entries for 2017-12-22
+2645,5522,6751,Draft,104649,2017-12-22,2017-12-22,USD,Broker Commissions,152.20,120.00,Broker Commissions,WSO Accounting Entries for 2017-12-22
+2645,5522,6751,Draft,104649,2017-12-22,2017-12-22,USD,Realized FX Gains/Losses,1742.56,0.00,Trade Basis: Asset Sell,WSO Accounting Entries for 2017-12-22
+2645,5522,6751,Draft,104649,2017-12-22,2017-12-22,USD,Return of Capital - Permanent,10940.94,10000.00,Trade Basis: Asset Sell,WSO Accounting Entries for 2017-12-22
+3238,7455,9897,Draft,104650,2018-01-03,2018-01-03,CAD,Interest Income,96397.46,96397.46,Interest Income,WSO Accounting Entries for 2018-01-03
+3238,7457,9899,Draft,104650,2018-01-03,2018-01-03,CAD,Cash Received,-96397.46,-96397.46,Interest Income,WSO Accounting Entries for 2018-01-03
+3485,8195,10892,Draft,104651,2018-01-22,2018-01-22,USD,Cash Disbursed,188040.00,150000.00,Partnership Expenses no Commitment,WSO Accounting Entries for 2018-01-22
+3485,8196,10893,Draft,104651,2018-01-22,2018-01-22,USD,Partnership Expenses Outside Commitment,-188040.00,-150000.00,Partnership Expenses no Commitment,WSO Accounting Entries for 2018-01-22
+2631,5433,6639,Draft,104652,2018-02-13,2018-02-13,EUR,Cash Received,0.00,-1500.00,,3.01
+2631,5849,7328,Draft,104652,2018-02-13,2018-02-13,EUR,Realized FX Gains/Losses,0.00,0.00,,3.01
+2631,5849,7328,Draft,104652,2018-02-13,2018-02-13,EUR,Return of Capital - Permanent,0.00,1500.00,,3.01
+2631,5433,6639,Draft,104653,2018-02-13,2018-02-13,EUR,Cash Disbursed,0.00,10000.00,,3.01
+2631,6141,7729,Draft,104653,2018-02-13,2018-02-13,EUR,Investment Capital,0.00,-10000.00,,3.01
+2675,5661,6932,Draft,104654,2018-02-21,2018-02-21,EUR,Cash Disbursed,0.00,1000000.00,,2.01
+2675,5661,6932,Draft,104654,2018-02-21,2018-02-21,EUR,Investment Capital,0.00,-1000000.00,,2.01
+2675,5661,6932,Draft,104655,2018-02-21,2018-02-21,EUR,Cash Disbursed,0.00,5000.00,,2.01
+2675,5661,6932,Draft,104655,2018-02-21,2018-02-21,EUR,Management Fees Inside Commitment,0.00,-5000.00,,2.01
+3021,6789,8959,Draft,104656,2018-02-16,2018-02-16,USD,Investment Capital,-1547653.19,-1234567.00,,Test Case 1.01 / 1.02 / 1.03 - Dummy Template Code should not be on blotter
+3021,6819,8960,Draft,104656,2018-02-16,2018-02-16,USD,Cash Disbursed,1547653.19,1234567.00,,Test Case 1.01 / 1.02 / 1.03 - Dummy Template Code should not be on blotter
+3021,6789,8959,Draft,104657,2018-02-14,2018-02-14,USD,Investment Capital,-125.36,-100.00,,Test Case 4.01 - Ticketing Status Reflected
+3021,6819,8960,Draft,104657,2018-02-14,2018-02-14,USD,Cash Disbursed,125.36,100.00,,Test Case 4.01 - Ticketing Status Reflected
+3906,9017,12082,Draft,104658,2018-02-21,2018-02-21,JPY,Cash Disbursed,0.00,3500.00,,2.02
+3906,9017,12082,Draft,104658,2018-02-21,2018-02-21,JPY,Partnership Expenses Inside Commitment,0.00,-3500.00,,2.02
+3906,9017,12082,Draft,104659,2018-02-21,2018-02-21,JPY,Cash Received,0.00,-7000.00,,2.03
+3906,9017,12082,Draft,104659,2018-02-21,2018-02-21,JPY,Interest Income,0.00,7000.00,,2.03
+3021,6789,8959,Draft,104660,2018-02-14,2018-02-14,USD,Investment Capital,-125.36,-100.00,,Test Case 4.01- Ticketing Status Reflected
+3021,6819,8960,Draft,104660,2018-02-14,2018-02-14,USD,Cash Disbursed,125.36,100.00,,Test Case 4.01- Ticketing Status Reflected
+2763,6008,7538,Draft,104661,2018-02-13,2018-02-13,EUR,Cash Received,0.00,-500.00,,
+2763,6008,7538,Draft,104661,2018-02-13,2018-02-13,EUR,Other Income,0.00,500.00,,
+3556,8368,11145,Draft,104662,2018-02-21,2018-02-21,EUR,Cash Disbursed,0.00,700000.00,,2.04
+3556,8368,11145,Draft,104662,2018-02-21,2018-02-21,EUR,Interest Expense,0.00,-700000.00,,2.04
+3064,6921,9126,Draft,104663,2018-02-21,2018-02-21,EUR,Cash Disbursed,0.00,9000000.00,,2.07
+3064,6921,9126,Draft,104663,2018-02-21,2018-02-21,EUR,Investment Capital,0.00,-9000000.00,,2.07
+3824,8995,12068,Draft,104664,2018-02-21,2018-02-21,JPY,Cash Disbursed,0.00,20000000.00,,2.07
+3824,8995,12068,Draft,104664,2018-02-21,2018-02-21,JPY,Partnership Expenses Inside Commitment,0.00,-20000000.00,,2.07
+3724,8778,11794,Draft,104665,2018-02-16,2018-02-16,MXN,Partnership Expenses Outside Commitment,-6623106.17,-98765432.00,,Test Case 1.04  / 1.05 / 1.06 - Valid Template Code should show on blotters
+3724,8779,11795,Draft,104665,2018-02-16,2018-02-16,MXN,Cash Disbursed,6623106.17,98765432.00,,Test Case 1.04  / 1.05 / 1.06 - Valid Template Code should show on blotters
+2572,4921,5768,Draft,104666,2018-03-01,2018-03-01,USD,Cash Disbursed,2507.20,2000.00,,2.06
+2572,4921,5768,Draft,104666,2018-03-01,2018-03-01,USD,Management Fees Inside Commitment,-2507.20,-2000.00,,2.06
+3021,6789,8959,Draft,104667,2018-02-16,2018-02-16,USD,Interest Expense,-6268.00,-5000.00,,Test Case 4.04 - Ticketing Status Reflected in Group
+3021,6819,8960,Draft,104667,2018-02-16,2018-02-16,USD,Cash Disbursed,6268.00,5000.00,,Test Case 4.04 - Ticketing Status Reflected in Group
+3021,6789,8959,Draft,104668,2018-02-16,2018-02-16,USD,Interest Income,626.80,500.00,,Test Case 4.04 - Ticketing Status Reflected in Group
+3021,6819,8960,Draft,104668,2018-02-16,2018-02-16,USD,Cash Disbursed,-626.80,-500.00,,Test Case 4.04 - Ticketing Status Reflected in Group
+3481,8178,10871,Draft,104669,2018-02-21,2018-02-21,USD,Cash Disbursed,0.00,7000000.00,,2.08
+3481,8178,10871,Draft,104669,2018-02-21,2018-02-21,USD,Investment Capital,0.00,-7000000.00,,2.08
+2782,6041,7601,Draft,104670,2018-03-01,2018-03-01,USD,Cash Disbursed,0.00,500000.00,,2.09
+2782,6041,7601,Draft,104670,2018-03-01,2018-03-01,USD,Management Fees Inside Commitment,0.00,-500000.00,,2.09
+2782,6041,7601,Draft,104671,2018-03-01,2018-03-01,USD,Cash Disbursed,0.00,700000.00,,2.09
+2782,6041,7601,Draft,104671,2018-03-01,2018-03-01,USD,Investment Capital,0.00,-700000.00,,2.09
+3190,7283,9679,Draft,104672,2018-02-21,2018-02-21,USD,Cash Disbursed,0.00,80000000.00,,
+3190,8613,11543,Draft,104672,2018-02-21,2018-02-21,USD,Investment Capital,0.00,-80000000.00,,
+3190,7283,9679,Draft,104673,2018-02-21,2018-02-21,USD,Cash Received,0.00,-50000.00,,
+3190,8251,10970,Draft,104673,2018-02-21,2018-02-21,USD,Other Income,0.00,50000.00,,
+3190,7283,9679,Draft,104674,2018-02-21,2018-02-21,USD,Cash Disbursed,0.00,50000.00,,TEST
+3190,8251,10970,Draft,104674,2018-02-21,2018-02-21,USD,Investment Capital,0.00,-50000.00,,TEST
+3190,7283,9679,Draft,104675,2018-02-28,2018-02-28,USD,Cash Disbursed,0.00,90000000.00,,Test - 2
+3190,7283,9679,Draft,104675,2018-02-28,2018-02-28,USD,Investment Capital,0.00,-90000000.00,,Test - 2
+2782,6041,7601,Draft,104676,2018-02-21,2018-02-21,USD,Cash Disbursed,0.00,500.00,,test
+2782,6041,7601,Draft,104676,2018-02-21,2018-02-21,USD,Partnership Expenses Inside Commitment,0.00,-500.00,,test
+3479,8172,10864,Draft,104677,2018-02-21,2018-02-21,EUR,Cash Disbursed,148319684.00,100000000.00,,
+3479,8837,11889,Draft,104677,2018-02-21,2018-02-21,EUR,Investment Capital,-148319684.00,-100000000.00,,
+3556,8368,11145,Draft,104678,2018-02-21,2018-02-21,EUR,Cash Disbursed,11865.57,8000.00,,
+3556,8368,11145,Draft,104678,2018-02-21,2018-02-21,EUR,Investment Capital,-11865.57,-8000.00,,
+2785,5093,7621,Draft,104679,2018-02-19,2018-02-19,USD,Dividend Income,-12536.00,-10000.00,,Test Case 1.10 - net zero manual adjustment ticket should not show on blotters
+2785,5093,7621,Draft,104679,2018-02-19,2018-02-19,USD,Interest Income,12536.00,10000.00,,Test Case 1.10 - net zero manual adjustment ticket should not show on blotters
+3057,6678,9110,Draft,104680,2018-02-14,2018-02-14,NOK,Return of Capital - Permanent,679482.54,4500000.00,,Test Case 9.01 - Regression for Distribution Tickets
+3057,6913,9111,Draft,104680,2018-02-14,2018-02-14,NOK,Cash Received,-679482.54,-4500000.00,,Test Case 9.01 - Regression for Distribution Tickets
+3176,7206,9581,Draft,104681,2018-02-22,2018-02-22,EUR,Cash Disbursed,0.00,400000.00,,2.05
+3176,7206,9581,Draft,104681,2018-02-22,2018-02-22,EUR,Investment Capital,0.00,-400000.00,,2.05
+3057,6678,9110,Draft,104682,2018-02-14,2018-02-14,NOK,Dividend Income,1011.67,6700.00,,Test Case 9.01 - Regression for Distribution Tickets (2)
+3057,6913,9111,Draft,104682,2018-02-14,2018-02-14,NOK,Cash Received,-1011.67,-6700.00,,Test Case 9.01 - Regression for Distribution Tickets (2)
+3176,7206,9581,Draft,104683,2018-02-22,2018-02-22,EUR,Cash Received,0.00,-5000.00,,2.05
+3176,7206,9581,Draft,104683,2018-02-22,2018-02-22,EUR,Realized FX Gains/Losses,0.00,0.00,,2.05
+3176,7206,9581,Draft,104683,2018-02-22,2018-02-22,EUR,Return of Capital - Permanent,0.00,5000.00,,2.05
+3176,7206,9581,Draft,104684,2018-02-22,2018-02-22,EUR,Cash Disbursed,0.00,659384.00,,2.05
+3176,7206,9581,Draft,104684,2018-02-22,2018-02-22,EUR,Investment Capital,0.00,-659384.00,,2.05
+3057,6678,9110,Draft,104685,2018-02-14,2018-02-14,NOK,Return of Capital - Permanent,1011.67,6700.00,,Test Case 9.01 - Regression for Distribution Tickets (2)
+3057,6913,9111,Draft,104685,2018-02-14,2018-02-14,NOK,Cash Received,-1011.67,-6700.00,,Test Case 9.01 - Regression for Distribution Tickets (2)
+3176,7206,9581,Draft,104686,2018-02-22,2018-02-22,EUR,Investment Capital,0.00,40000.00,,2.05
+3176,7206,9581,Draft,104686,2018-02-22,2018-02-22,EUR,Partnership Expenses Inside Commitment,0.00,-40000.00,,2.05
+3176,7206,9581,Draft,104687,2018-02-22,2018-02-22,EUR,Cash Received,0.00,-8989.00,,2.05
+3176,7206,9581,Draft,104687,2018-02-22,2018-02-22,EUR,Return of Capital - Permanent,0.00,8989.00,,2.05
+2496,4845,4150,Draft,104688,2018-02-19,2018-02-19,EUR,Management Fees - Offsets Inside Commitment,556198.82,375000.00,,Test Case 1.11 - Net Zero Capital Call 
+2496,4845,4150,Draft,104688,2018-02-19,2018-02-19,EUR,Management Fees Inside Commitment,-556198.82,-375000.00,,Test Case 1.11 - Net Zero Capital Call 
+3176,7206,9581,Draft,104689,2018-02-22,2018-02-22,EUR,Cash Disbursed,0.00,450000.00,,2.04
+3176,7206,9581,Draft,104689,2018-02-22,2018-02-22,EUR,Investment Capital,0.00,-450000.00,,2.04
+3691,8679,11650,Draft,104690,2018-02-22,2018-02-22,USD,Cash Disbursed,86373.04,68900.00,,2.04
+3691,8679,11650,Draft,104690,2018-02-22,2018-02-22,USD,Investment Capital,-86373.04,-68900.00,,2.04
+3127,7052,9374,Draft,104691,2018-02-21,2018-02-21,USD,Cash Disbursed,62680.00,50000.00,,
+3127,7052,9374,Draft,104691,2018-02-21,2018-02-21,USD,Investment Capital,-62680.00,-50000.00,,
+3127,7052,9374,Draft,104692,2018-02-21,2018-02-21,USD,Cash Disbursed,756241.72,603256.00,,
+3127,7052,9374,Draft,104692,2018-02-21,2018-02-21,USD,Management Fees Inside Commitment,-756241.72,-603256.00,,
+3127,7052,9374,Draft,104693,2018-02-21,2018-02-21,USD,Cash Received,-626.80,-500.00,,
+3127,7052,9374,Draft,104693,2018-02-21,2018-02-21,USD,Realized FX Gains/Losses,0.00,0.00,,
+3127,7052,9374,Draft,104693,2018-02-21,2018-02-21,USD,Return of Capital - Permanent,626.80,500.00,,
+2958,6654,8581,Draft,104694,2018-02-21,2018-02-21,USD,Cash Disbursed,75216.00,60000.00,,
+2958,6654,8581,Draft,104694,2018-02-21,2018-02-21,USD,Investment Capital,-75216.00,-60000.00,,
+2958,6654,8581,Draft,104695,2018-02-21,2018-02-21,USD,Cash Disbursed,814840.00,650000.00,,
+2958,6654,8581,Draft,104695,2018-02-21,2018-02-21,USD,Management Fees Inside Commitment,-814840.00,-650000.00,,
+2958,6654,8581,Draft,104696,2018-02-21,2018-02-21,USD,Cash Received,-1880.40,-1500.00,,
+2958,6654,8581,Draft,104696,2018-02-21,2018-02-21,USD,Realized FX Gains/Losses,0.00,0.00,,
+2958,6654,8581,Draft,104696,2018-02-21,2018-02-21,USD,Return of Capital - Permanent,1880.40,1500.00,,
+3363,7855,10420,Held,104697,2018-02-20,2018-02-20,USD,Cash Received,-9348.80,-7410.57,,Project Holster Activity 20Feb2018
+3363,7856,10421,Held,104697,2018-02-20,2018-02-20,USD,Interest Income,9348.80,7410.57,,Project Holster Activity 20Feb2018
+3552,7855,11212,Held,104697,2018-02-20,2018-02-20,USD,Cash Received,-18237.42,-14456.36,,Project Holster Activity 20Feb2018
+3552,7856,11213,Held,104697,2018-02-20,2018-02-20,USD,Bridge/Commitment Fees,18237.42,14456.36,,Project Holster Activity 20Feb2018

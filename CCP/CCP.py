@@ -11,7 +11,7 @@ import csv
 #Loop through each line and parse each string into Dictionary ... to access each code
 #How to organize this to show to user? Would Tree Structure Works?
 
-
+fullCodes = {}
 d = {}
 lis = []
 tagLogFile = open("EodFiles.tlg", "r")
@@ -23,6 +23,7 @@ for line in tagLogFile:
     for item in fields:
         l = item.split('=')
         d[l[0]] = l[1]
+        fullCodes[l[0]] = l[1]
     lis.append(d)
 tagLogFile.close()
 print(d)
@@ -37,9 +38,12 @@ pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 pdfReader.numPages
 
 pageObj = pdfReader.getPage(14)
-
 pageObj.extractText().split('\n')
 
+
+w = csv.writer(open("FullCodes.csv", "w"))
+for key, val in fullCodes.items():
+    w.writerow([key, val])
 
 
 

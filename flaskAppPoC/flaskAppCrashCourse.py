@@ -24,11 +24,8 @@ patch_request_class(app)
 anyOfPasswords = ['password', 'secret']
 
 class LoginForm(FlaskForm):
-    username = StringField('username', validators=\
-                           [InputRequired(message='A user name is required'),\
-                            Length(min=5, max=10, message='Must be between 5 and 10')])
-    password = PasswordField('password',  validators=[InputRequired('A password is required')\
-                                                      , AnyOf(values=anyOfPasswords)])
+    username = StringField('username', validators=[InputRequired(message='A user name is required'),Length(min=5, max=10, message='Must be between 5 and 10')])
+    password = PasswordField('password',  validators=[InputRequired('A password is required'), AnyOf(values=anyOfPasswords)])
     
 
     

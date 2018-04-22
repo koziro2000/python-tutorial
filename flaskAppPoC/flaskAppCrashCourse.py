@@ -23,6 +23,7 @@ from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_cl
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, AnyOf
 
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Thisisasecret!'
 app.config['TESTING'] = True

@@ -2,8 +2,19 @@
 """
 Created on Sat Apr 21 05:37:31 2018
 
+#TODO:
+
+    1. Navigation
+    2. Authentication/Authorization
+    3. Display various parts - create at least one page from POC
+    4. Multi sessions
+    5. 
+
 @author: jroh
 """
+
+
+
 import os
 from flask import Flask, render_template
 from flask_wtf import FlaskForm

@@ -42,11 +42,9 @@ heading = "Asset Strategic Review"
 
 @app.route("/")
 def showGeneralPartner():
-    generalPartnerSet = generalPartners.find_one ({"_id":ObjectId('5ade917d88e80b2420fe3685')})
-
-    print(generalPartnerSet['property'])
+    generalPartnerSet = generalPartners.find_one()
     return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)
 # Careful with the debug mode..

@@ -1,0 +1,4 @@
+2018-04-24 15:53:05 INFO     [root.<module>] === flask start ===
+2018-04-24 15:53:06 INFO     [werkzeug._log]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-04-24 15:53:35 INFO     [werkzeug._log] 127.0.0.1 - - [24/Apr/2018 15:53:35] "GET / HTTP/1.1" 200 -
+2018-04-24 15:53:51 INFO     [werkzeug._log] 127.0.0.1 - - [24/Apr/2018 15:53:51] "GET /loaddata HTTP/1.1" 500 -

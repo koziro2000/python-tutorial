@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>{{t}}</title>
+	</head>
+	<style>	
+		h1{
+			font-family:"Arial Black", Gadget, sans-serif;
+		}
+		body{
+			background-color:white;
+		}
+	</style>
+<body>
+	<h1>{{h}}</h1>
+	<hr>
+	<h3>General Partner Information</h3>
+	<form action="/action3" method="POST">
+	{% for generalPartner in generalPartners %}
+		Unique Object ID : {{ generalPartner['_id'] }}<br/>
+	<input type="text" name="_id" value="{{ generalPartner['_id'] }}" hidden>
+
+	<table>
+	<tr>
+	<td>Task Name</td><td> : </td><td><input type="text" name="name" value="{{ generalPartner['property'] }}" placeholder="{{ generalPartner['property'] }}"></td>
+	</tr>
+	<tr>
+	<td>Description</td><td> : </td><td><textarea type="text" name="desc" rows=3 cols=30 placeholder="{{ generalPartner['portfolio'] }}"> {{ generalPartner['portfolio'] }} </textarea></td>
+	</tr>
+	<tr>
+	<td>Date</td><td> : </td><td><input type="text" name="date" value="{{ generalPartner['Property Type'] }}" placeholder="{{ generalPartner['Property Type'] }}"></td>
+	</tr>
+	<tr>
+	<td>Priority</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Acquisition Date'] }}" placeholder="{{ generalPartner['Acquisition Date'] }}"></td>
+	</tr>
+	</table>
+	{% endfor %}
+		<button type="submit"> Update Task </button>
+		<br/>
+	</form>
+	<a href="/">Return to TaskList</a>
+</body>
+</html>

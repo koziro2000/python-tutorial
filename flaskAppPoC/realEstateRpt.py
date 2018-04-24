@@ -38,13 +38,14 @@ generalPartners = db.GeneralPartner
 
 app = Flask(__name__)
 title = "General Partner Information"
-heading = "Asset"
+heading = "Asset Strategic Review"
 
 @app.route("/")
 def showGeneralPartner():
-    generalPartnerSet = generalPartners.find({"_id":ObjectId('5ade917d88e80b2420fe3685')})
-    print(generalPartnerSet)
-    return render_template('showGeneralPartner.html', generalPartners = generalPartnerSet, t=title, h=heading)
+    generalPartnerSet = generalPartners.find_one ({"_id":ObjectId('5ade917d88e80b2420fe3685')})
+
+    print(generalPartnerSet['property'])
+    return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
 
 if __name__ == "__main__":
     app.run(debug=True)

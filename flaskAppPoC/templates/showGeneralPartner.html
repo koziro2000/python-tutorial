@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>{{t}}</title>
+	</head>
+	<style>	
+		h1{
+			font-family:"Arial Black", Gadget, sans-serif;
+		}
+		body{
+			background-color:white;
+		}
+	</style>
+<body>
+	<h1>{{h}}<br>{{ generalPartner['portfolio'] }} - {{ generalPartner['property'] }}</h1>
+	<hr>
+	<h3>General Property Information</h3>
+	<form action="/action3" method="POST">
+		Unique Object ID : {{ generalPartner['_id'] }}<br/>
+	<input type="text" name="_id" value="{{ generalPartner['_id'] }}" hidden>
+
+	<table>
+	<tr>
+	<td>Property</td><td> : </td><td><input type="text" name="name" value="{{ generalPartner['property'] }}" placeholder="{{ generalPartner['property'] }}"></td>
+	</tr>
+	<tr>
+	<td>Portfolio</td><td> : </td><td><textarea type="text" name="desc" rows=3 cols=30 placeholder="{{ generalPartner['portfolio'] }}"> {{ generalPartner['portfolio'] }} </textarea></td>
+	</tr>
+	<tr>
+	<td>Property Type</td><td> : </td><td><input type="text" name="date" value="{{ generalPartner['Property Type'] }}" placeholder="{{ generalPartner['Property Type'] }}"></td>
+	</tr>
+	<tr>
+	<td>Acquisition Date</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Acquisition Date'] }}" placeholder="{{ generalPartner['Acquisition Date'] }}"></td>
+	</tr>
+
+	<tr>
+	<td>Stabilization Date</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Stabilization Date'] }}" placeholder="{{ generalPartner['Stabilization Date'] }}"></td>
+	</tr>
+	
+	<tr>
+		<td>Year Built/Last Renovated</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Year Built/Last Renovated'] }}" placeholder="{{ generalPartner['Year Built/Last Renovated'] }}"></td>
+	</tr>
+	
+	<tr>
+		<td>Location</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Location'] }}" placeholder="{{ generalPartner['Location'] }}"></td>
+	</tr>
+	<tr>
+		<td>NRA/GLA/Units</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['NRA/GLA/Units'] }}" placeholder="{{ generalPartner['NRA/GLA/Units'] }}"></td>
+	</tr>
+	<tr>
+		<td>Lifecycle</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Lifecycle'] }}" placeholder="{{ generalPartner['Lifecycle'] }}"></td>
+	</tr>
+	<tr>
+		<td>Ownership Type</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Ownership Type'] }}" placeholder="{{ generalPartner['Ownership Type'] }}"></td>
+	</tr>
+	<tr>
+		<td>CPPIB Ownership (%)</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['CPPIB Ownership (%)'] }}" placeholder="{{ generalPartner['CPPIB Ownership (%)'] }}"></td>
+	</tr>
+	<tr>
+		<td>Ground Lease (Expiration, Options)</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Ground Lease (Expiration, Options)'] }}" placeholder="{{ generalPartner['Ground Lease (Expiration, Options)'] }}"></td>
+	</tr>
+																											
+</table>
+		<button type="submit"> Update General Partner </button>
+		<br/>
+	</form>
+	<a href="/">Return to General Partner List</a>
+</body>
+</html>

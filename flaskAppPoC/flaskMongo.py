@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from pymongo import MongoClient
 from bson.objectid import ObjectId
+from wtforms import StringField, PasswordField, SubmitField
+from flask_wtf import FlaskForm
 
 client = MongoClient('localhost', 27017)
 db = client.conquer
@@ -10,6 +12,7 @@ todos = db.todos
 app = Flask(__name__)
 title = "TODO with Flask"
 heading = "ToDo Reminder"
+
 
 def redirect_url():
     return request.args.get('next') or request.referrer or url_for('index')
@@ -70,6 +73,15 @@ def remove ():
 	key=request.values.get("_id")
 	todos.remove({"_id":ObjectId(key)})
 	return redirect("/")
+
+
+class ToDoUpdateForm(FlaskForm):
+	taskId = StringField('taskId')
+	taskName = StringField('taskName')
+	taskDescription = StringField('taskDescription')
+	taskDate = StringField('taskDate')
+	taskPriority = StringField('taskPriority')
+
 
 @app.route("/update")
 def update ():

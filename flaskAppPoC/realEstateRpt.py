@@ -18,11 +18,27 @@
         "Lifecycle":"Operating - Near term renovation required",
         "Ownership Type":"Minority JV Interest",
         "CPPIB Ownership (%)":"45%",
-        "Ground Lease (Expiration, Options)":"N/A"
+        "Ground Lease (Expiration, Options)":"N/A",
+        "IRR Since Inception":"10.0% unlevered",
+        "Long-Term Outlook/Strategy":"Positioned for long term growth",
+        "Hold/Sell":"Hold",
+        "Target Timing of Sale":"N/A",
+        "Asset Liquidity(Market)":"Medium",
+        "REI interest Liquidity(Market)":"Low",
+        "Original GAV at 100%":"$1.0",
+        "Original GAV at Share":"$0.5",
+        "Current GAV at 100%":"$1.0",
+        "Current GAV at Share":"$0.5",        
+        "Current Total Cost Basis at 100%":"$1.0",
+        "Current Total Cost Basis at Share":"$0.5",
+        "Invested Equity at 100%":"$1.0",
+        "Invested Equity at Share":"$0.5",
+        "Current ECV at 100%":"$1.0",
+        "Current ECV at Share":"$0.5"
     }
 
 
-{"_id":"5ade917d88e80b2420fe3685","property":"westfield topanga","portfolio":"westfield JV","Property Type":"Super Regional Mall","Acquisition Date":"March 2012","Stabilization Date":"March 2012","Year Built/Last Renovated":"1965/2008","Location":"Los Angeles, CA","NRA/GLA/Units":"1,554,776","Lifecycle":"Operating - Near term renovation required","Ownership Type":"Minority JV Interest","CPPIB Ownership (%)":"45%","Ground Lease (Expiration, Options)":"N/A"}
+{"_id":"5ade917d88e80b2420fe3685","property":"westfield topanga","portfolio":"westfield JV","Property Type":"Super Regional Mall","Acquisition Date":"March 2012","Stabilization Date":"March 2012","Year Built/Last Renovated":"1965/2008","Location":"Los Angeles, CA","NRA/GLA/Units":"1,554,776","Lifecycle":"Operating - Near term renovation required","Ownership Type":"Minority JV Interest","CPPIB Ownership (%)":"45%","Ground Lease (Expiration, Options)":"N/A","IRR Since Inception":"10.0% unlevered","Long-Term Outlook/Strategy":"Positioned for long term growth","Hold/Sell":"Hold","Target Timing of Sale":"N/A","Asset Liquidity(Market)":"Medium","REI interest Liquidity(Market)":"Low","Original GAV at 100%":"$1.0","Original GAV at Share":"$0.5","Current GAV at 100%":"$1.0","Current GAV at Share":"$0.5","Current Total Cost Basis at 100%":"$1.0","Current Total Cost Basis at Share":"$0.5","Invested Equity at 100%":"$1.0","Invested Equity at Share":"$0.5","Current ECV at 100%":"$1.0","Current ECV at Share":"$0.5"}
 
 """
 
@@ -46,5 +62,8 @@ def showGeneralPartner():
     return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+    #app.run(debug=True)
+    #app.run(host='10.35.112.108', port=8080)
+    app.run(debug=True, host='0.0.0.0', port=5000)
+    
 # Careful with the debug mode..

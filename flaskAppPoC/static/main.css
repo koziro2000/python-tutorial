@@ -1,0 +1,52 @@
+body{
+	background-color:white;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+.header { 
+    background-color: #2F4F4F;
+	color: white;
+	line-height: normal;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.header-line{
+    display: block;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+	font-size: small;
+	border-spacing: 0px;
+	border: 0;
+}
+
+td.splitter{
+	width: 2px
+}
+
+td.col-1-label{
+	width: 150px
+}
+td.col-1-text{
+	width: 200px
+}
+
+input:not([type="image" i]), textarea {
+    box-sizing: border-box;
+	width:100%; 
+	padding-left:0px; 
+	padding-right:0px;		
+}
+
+.section-header{
+	background-color: #E0DCC8;
+}
+
+td>img{
+	display: block;
+	width:100%
+}

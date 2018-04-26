@@ -70,9 +70,10 @@ def showGeneralPartner():
 def updateGeneralPartner():
     id = request.form['_id']
 
-    requestData = request.form.to_dict(flat=False)
+    requestData = request.form.to_dict(flat=True)
     print(requestData)
-
+    #requestData = request.get_json(force=True)
+    #print(request.form)
     generalPartnerSet = generalPartners.find_one({ '_id': ObjectId(id) })   
     return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
 

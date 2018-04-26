@@ -1,82 +1,88 @@
 <html>
 	<head>
 		<title>{{t}}</title>
-		<link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
 	</head>
+	<style>	
+		h1{
+			font-family:"Arial Black", Gadget, sans-serif;
+		}
+		body{
+			background-color:white;
+		}
+	</style>
 <body>
-	<div class="header">
-	<p class="header-line">{{h}}</p>
-	<p class="header-line">{{ generalPartner['portfolio'] }} - {{ generalPartner['property'] }}</p>
-	<p class="header-line">General Property Information</p>
-	</div>
-	<form action="/update" method="POST">
+	<h1>{{h}}<br>{{ generalPartner['portfolio'] }} - {{ generalPartner['property'] }}</h1>
+	<hr>
+	<h3>General Property Information</h3>
+	<form action="/action3" method="POST">
+		Unique Object ID : {{ generalPartner['_id'] }}<br/>
 	<input type="text" name="_id" value="{{ generalPartner['_id'] }}" hidden>
-	<table style="margin-top:10px">
+	<table>
 		<tr>
-			<td style="vertical-align:top;">
+			<td>
 					<table>
 							<tr>
-							<td class="col-1-label">Property</td><td class="splitter"></td><td class="col-1-text"><input type="text" name="name" value="{{ generalPartner['property'] }}" placeholder="{{ generalPartner['property'] }}"></td>
+							<td>Property</td><td> : </td><td><input type="text" name="name" value="{{ generalPartner['property'] }}" placeholder="{{ generalPartner['property'] }}"></td>
 							</tr>
 							<tr>
-							<td>Portfolio</td><td class="splitter"></td><td><textarea type="text" name="desc" rows=3 cols=30 placeholder="{{ generalPartner['portfolio'] }}"> {{ generalPartner['portfolio'] }} </textarea></td>
+							<td>Portfolio</td><td> : </td><td><textarea type="text" name="desc" rows=3 cols=30 placeholder="{{ generalPartner['portfolio'] }}"> {{ generalPartner['portfolio'] }} </textarea></td>
 							</tr>
 							<tr>
-							<td>Property Type</td><td class="splitter"></td><td><input type="text" name="date" value="{{ generalPartner['Property Type'] }}" placeholder="{{ generalPartner['Property Type'] }}"></td>
+							<td>Property Type</td><td> : </td><td><input type="text" name="date" value="{{ generalPartner['Property Type'] }}" placeholder="{{ generalPartner['Property Type'] }}"></td>
 							</tr>
 							<tr>
-							<td>Acquisition Date</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Acquisition Date'] }}" placeholder="{{ generalPartner['Acquisition Date'] }}"></td>
+							<td>Acquisition Date</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Acquisition Date'] }}" placeholder="{{ generalPartner['Acquisition Date'] }}"></td>
 							</tr>
 						
 							<tr>
-							<td>Stabilization Date</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Stabilization Date'] }}" placeholder="{{ generalPartner['Stabilization Date'] }}"></td>
+							<td>Stabilization Date</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Stabilization Date'] }}" placeholder="{{ generalPartner['Stabilization Date'] }}"></td>
 							</tr>
 							
 							<tr>
-								<td>Year Built/Last Renovated</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Year Built/Last Renovated'] }}" placeholder="{{ generalPartner['Year Built/Last Renovated'] }}"></td>
+								<td>Year Built/Last Renovated</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Year Built/Last Renovated'] }}" placeholder="{{ generalPartner['Year Built/Last Renovated'] }}"></td>
 							</tr>
 							
 							<tr>
-								<td>Location</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Location'] }}" placeholder="{{ generalPartner['Location'] }}"></td>
+								<td>Location</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Location'] }}" placeholder="{{ generalPartner['Location'] }}"></td>
 							</tr>
 							<tr>
-								<td>NRA/GLA/Units</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['NRA/GLA/Units'] }}" placeholder="{{ generalPartner['NRA/GLA/Units'] }}"></td>
+								<td>NRA/GLA/Units</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['NRA/GLA/Units'] }}" placeholder="{{ generalPartner['NRA/GLA/Units'] }}"></td>
 							</tr>
 							<tr>
-								<td>Lifecycle</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Lifecycle'] }}" placeholder="{{ generalPartner['Lifecycle'] }}"></td>
+								<td>Lifecycle</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Lifecycle'] }}" placeholder="{{ generalPartner['Lifecycle'] }}"></td>
 							</tr>
 							<tr>
-								<td>Ownership Type</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Ownership Type'] }}" placeholder="{{ generalPartner['Ownership Type'] }}"></td>
+								<td>Ownership Type</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Ownership Type'] }}" placeholder="{{ generalPartner['Ownership Type'] }}"></td>
 							</tr>
 							<tr>
-								<td>CPPIB Ownership (%)</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['CPPIB Ownership (%)'] }}" placeholder="{{ generalPartner['CPPIB Ownership (%)'] }}"></td>
+								<td>CPPIB Ownership (%)</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['CPPIB Ownership (%)'] }}" placeholder="{{ generalPartner['CPPIB Ownership (%)'] }}"></td>
 							</tr>
 							<tr>
-								<td>Ground Lease (Expiration, Options)</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Ground Lease (Expiration, Options)'] }}" placeholder="{{ generalPartner['Ground Lease (Expiration, Options)'] }}"></td>
+								<td>Ground Lease (Expiration, Options)</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Ground Lease (Expiration, Options)'] }}" placeholder="{{ generalPartner['Ground Lease (Expiration, Options)'] }}"></td>
 							</tr>
 							<tr>
-								<td>IRR Since Inception</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['IRR Since Inception'] }}" placeholder="{{ generalPartner['IRR Since Inception'] }}"></td>
+								<td>IRR Since Inception</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['IRR Since Inception'] }}" placeholder="{{ generalPartner['IRR Since Inception'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Long-Term Outlook/Strategy</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Long-Term Outlook/Strategy'] }}" placeholder="{{ generalPartner['Long-Term Outlook/Strategy'] }}"></td>
+								<td>Long-Term Outlook/Strategy</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Long-Term Outlook/Strategy'] }}" placeholder="{{ generalPartner['Long-Term Outlook/Strategy'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Hold/Sell</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Hold/Sell'] }}" placeholder="{{ generalPartner['Hold/Sell'] }}"></td>
+								<td>Hold/Sell</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Hold/Sell'] }}" placeholder="{{ generalPartner['Hold/Sell'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Target Timing of Sale</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Target Timing of Sale'] }}" placeholder="{{ generalPartner['Target Timing of Sale'] }}"></td>
+								<td>Target Timing of Sale</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Target Timing of Sale'] }}" placeholder="{{ generalPartner['Target Timing of Sale'] }}"></td>
 							</tr>	
 							<tr>
-								<td>Asset Liquidity(Market)</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['Asset Liquidity(Market)'] }}" placeholder="{{ generalPartner['Asset Liquidity(Market)'] }}"></td>
+								<td>Asset Liquidity(Market)</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['Asset Liquidity(Market)'] }}" placeholder="{{ generalPartner['Asset Liquidity(Market)'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>REI interest Liquidity(Market)</td><td class="splitter"></td><td><input type="text" name="pr" value="{{ generalPartner['REI interest Liquidity(Market)'] }}" placeholder="{{ generalPartner['REI interest Liquidity(Market)'] }}"></td>
+								<td>REI interest Liquidity(Market)</td><td> : </td><td><input type="text" name="pr" value="{{ generalPartner['REI interest Liquidity(Market)'] }}" placeholder="{{ generalPartner['REI interest Liquidity(Market)'] }}"></td>
 							</tr>																									
 					</table>			
 			</td>
-			<td style="vertical-align:top;">
+			<td align="Top">
 					<table>
-							<tr class="section-header">
+							<tr>
 								<td>US$M</td><td>at 100% </td><td>at Share</td>
 							</tr>																											
 							<tr>
@@ -98,14 +104,14 @@
 					</table>
 			</td>
 
-			<td style="vertical-align:top;">
+			<td align="Top">
 					<table>
-							<tr class="section-header">
+							<tr>
 								<td>Property Photo</td>
 							</tr>																											
 							<tr>
-								<td class="img-cell">
-										<img src="{{url_for('static', filename='property.jpg')}}" alt="property">
+								<td>
+										<img src="\templates\property.jpg" alt="property">
 								</td>
 							</tr>																																																										
 					</table>
@@ -116,7 +122,6 @@
 
 		<button type="submit"> Update General Partner </button>
 		<br/>
-
 	</form>
 	<a href="/">Return to General Partner List</a>
 </body>

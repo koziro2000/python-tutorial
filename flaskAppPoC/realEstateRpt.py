@@ -62,15 +62,23 @@ heading = "Asset Strategic Review "
 
 @app.route("/")
 def showGeneralPartner():
-    generalPartnerSet = generalPartners.find_one()
-    return render_template('generalPartnerForm.html', generalPartner = generalPartnerSet, t=title, h=heading)
+    generalPartnerSet = generalPartners.find()
+    return render_template('generalPartnerForm.html', generalPartners = generalPartnerSet, t=title, h=heading)
 
 #This is for update button
 @app.route("/update", methods = ['POST'])
 def updateGeneralPartner():
     id = request.form['_id']
-    generalPartnerSet = generalPartners.find_one({ '_id':  id})   
+    generalPartnerSet = generalPartners.find_one({ '_id': ObjectId(id) })   
     return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
+
+#This is for update button
+@app.route("/show", methods = ['GET'])
+def viewGeneralPartner():
+    id = request.values.get("_id")
+    generalPartnerSet = generalPartners.find_one({ '_id':   ObjectId(id)})   
+    return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
+
 
 #This is for making rest call for query
 @app.route("/restquery", methods = ['POST'])

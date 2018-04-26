@@ -6,11 +6,8 @@
 <body>
 	<div class="header">
 	<p class="header-line">{{h}}</p>
-	<p class="header-line">{{ generalPartner['portfolio'] }} - {{ generalPartner['property'] }}</p>
-	<p class="header-line">General Property Information</p>
+	<p class="header-line">General Property List</p>
 	</div>
-	<form action="/update" method="POST">
-	<input type="text" name="_id" value="{{ generalPartner['_id'] }}" hidden>
 	<table style="margin-top:10px">
 		<tr>
 			<td style="vertical-align:top;">
@@ -20,22 +17,16 @@
 							<th>Portfolio</th>
 							<th></th>
 						</tr>
-
+						{% for generalPartner in generalPartners %}
 						<tr>
 							<td class="col-1-text">{{ generalPartner['property'] }}</td>
 							<td>{{ generalPartner['portfolio'] }}</td>
-							<td><button type="submit"> Get General Partner </button></td>
+							<td><a href="./show?_id={{generalPartner['_id']}}"><button type="submit"> View </button></a></td>
 						</tr>
+						{% endfor %}
 					</table>			
 			</td>
 		</tr>
-
 	</table>
-
-
-		<br/>
-
-	</form>
-	<a href="/">Return to General Partner List</a>
 </body>
 </html>

@@ -69,6 +69,10 @@ def showGeneralPartner():
 @app.route("/update", methods = ['POST'])
 def updateGeneralPartner():
     id = request.form['_id']
+
+    requestData = request.form.to_dict(flat=False)
+    print(requestData)
+
     generalPartnerSet = generalPartners.find_one({ '_id': ObjectId(id) })   
     return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
 

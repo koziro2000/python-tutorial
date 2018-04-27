@@ -69,15 +69,29 @@ def showGeneralPartner():
 @app.route("/update", methods = ['POST'])
 def updateGeneralPartner():
     id = request.form['_id']
+    formDict = request.form
 
-    requestData = request.form.to_dict(flat=True)
-    print(requestData)
+    #for k, v in formDict.items():
+    #    print(k, v)
+
+    replacement = { k:v.strip() for k,v in formDict.items() if k!='_id'}
+
+    #for k, v in replacement.items():
+    #    print(k, v)
+
     #requestData = request.get_json(force=True)
     #print(request.form)
-    generalPartnerSet = generalPartners.find_one({ '_id': ObjectId(id) })   
-    return render_template('showGeneralPartner.html', generalPartner = generalPartnerSet, t=title, h=heading)
+    generalPartners.replace_one(
+        { '_id': ObjectId(id) }, 
+        replacement,
+        upsert=False
+    )
 
-#This is for update button
+    #print(updateResult)
+                          
+    return render_template('updateGeneralPartnerSu.html', generalPartner = formDict, t=title, h=heading)
+
+#This is for view button
 @app.route("/show", methods = ['GET'])
 def viewGeneralPartner():
     id = request.values.get("_id")
@@ -95,6 +109,7 @@ def queryGeneralPartner():
 if __name__ == "__main__":
     #app.run(debug=True)
     #app.run(host='10.35.112.108', port=8080)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    #app.run(host='0.0.0.0', port=8008)
+    app.run(debug=True, host='0.0.0.0', port=8008)
     
 # Careful with the debug mode..

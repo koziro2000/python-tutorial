@@ -19,7 +19,7 @@
 							<td class="col-1-label">Property</td><td class="splitter"></td><td class="col-1-text"><input type="text" name="property" value="{{ generalPartner['property'] }}" placeholder="{{ generalPartner['property'] }}"></td>
 							</tr>
 							<tr>
-							<td>Portfolio</td><td class="splitter"></td><td><textarea type="text" name="Portfolio" rows=3 cols=30 placeholder="{{ generalPartner['portfolio'] }}"> {{ generalPartner['portfolio'] }} </textarea></td>
+							<td>Portfolio</td><td class="splitter"></td><td><textarea type="text" name="portfolio" rows=3 cols=30 placeholder="{{ generalPartner['portfolio'] }}">{{ generalPartner['portfolio'] }}</textarea></td>
 							</tr>
 							<tr>
 							<td>Property Type</td><td class="splitter"></td><td><input type="text" name="Property Type" value="{{ generalPartner['Property Type'] }}" placeholder="{{ generalPartner['Property Type'] }}"></td>
@@ -33,7 +33,7 @@
 							</tr>
 							
 							<tr>
-								<td>Year Built/Last Renovated</td><td class="splitter"></td><td><input type="text" name="Year Built/Last Renovatedpr" value="{{ generalPartner['Year Built/Last Renovated'] }}" placeholder="{{ generalPartner['Year Built/Last Renovated'] }}"></td>
+								<td>Year Built/Last Renovated</td><td class="splitter"></td><td><input type="text" name="Year Built/Last Renovated" value="{{ generalPartner['Year Built/Last Renovated'] }}" placeholder="{{ generalPartner['Year Built/Last Renovated'] }}"></td>
 							</tr>
 							
 							<tr>
@@ -80,19 +80,19 @@
 								<td>US$M</td><td>at 100% </td><td>at Share</td>
 							</tr>																											
 							<tr>
-								<td>Original GAV(or Cost Basis)</td><td><input type="text" name="Original GAV(or Cost Basis)" value="{{ generalPartner['Original GAV at 100%'] }}" placeholder="{{ generalPartner['Original GAV at 100%'] }}"></td><td><input type="text" name="pr" value="{{ generalPartner['Original GAV at Share'] }}" placeholder="{{ generalPartner['Original GAV at Share'] }}"></td>
+								<td>Original GAV(or Cost Basis)</td><td><input type="text" name="Original GAV at 100%" value="{{ generalPartner['Original GAV at 100%'] }}" placeholder="{{ generalPartner['Original GAV at 100%'] }}"></td><td><input type="text" name="Original GAV at Share" value="{{ generalPartner['Original GAV at Share'] }}" placeholder="{{ generalPartner['Original GAV at Share'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Current GAV</td><td><input type="text" name="Current GAV" value="{{ generalPartner['Current GAV at 100%'] }}" placeholder="{{ generalPartner['Current GAV at 100%'] }}"></td><td><input type="text" name="pr" value="{{ generalPartner['Current GAV at share'] }}" placeholder="{{ generalPartner['Current GAV at Share'] }}"></td>
+								<td>Current GAV</td><td><input type="text" name="Current GAV at 100%" value="{{ generalPartner['Current GAV at 100%'] }}" placeholder="{{ generalPartner['Current GAV at 100%'] }}"></td><td><input type="text" name="Current GAV at Share" value="{{ generalPartner['Current GAV at Share'] }}" placeholder="{{ generalPartner['Current GAV at Share'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Current Total Cost Basis</td><td><input type="text" name="Current Total Cost Basis" value="{{ generalPartner['Current Total Cost Basis at 100%'] }}" placeholder="{{ generalPartner['Current Total Cost Basis at 100%'] }}"></td><td><input type="text" name="pr" value="{{ generalPartner['Current Total Cost Basis at Share'] }}" placeholder="{{ generalPartner['Current Total Cost Basis at Share'] }}"></td>
+								<td>Current Total Cost Basis</td><td><input type="text" name="Current Total Cost Basis at 100%" value="{{ generalPartner['Current Total Cost Basis at 100%'] }}" placeholder="{{ generalPartner['Current Total Cost Basis at 100%'] }}"></td><td><input type="text" name="Current Total Cost Basis at Share" value="{{ generalPartner['Current Total Cost Basis at Share'] }}" placeholder="{{ generalPartner['Current Total Cost Basis at Share'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Invested Equity</td><td><input type="text" name="Invested Equity" value="{{ generalPartner['Invested Equity at 100%'] }}" placeholder="{{ generalPartner['Invested Equity at 100%'] }}"></td><td><input type="text" name="pr" value="{{ generalPartner['Invested Equity at Share'] }}" placeholder="{{ generalPartner['Invested Equity at Share'] }}"></td>
+								<td>Invested Equity</td><td><input type="text" name="Invested Equity at 100%" value="{{ generalPartner['Invested Equity at 100%'] }}" placeholder="{{ generalPartner['Invested Equity at 100%'] }}"></td><td><input type="text" name="Invested Equity at Share" value="{{ generalPartner['Invested Equity at Share'] }}" placeholder="{{ generalPartner['Invested Equity at Share'] }}"></td>
 							</tr>																											
 							<tr>
-								<td>Current ECV</td><td><input type="text" name="Current ECV" value="{{ generalPartner['Current ECV at 100%'] }}" placeholder="{{ generalPartner['Current ECV at 100%'] }}"></td><td><input type="text" name="pr" value="{{ generalPartner['Current ECV at Share'] }}" placeholder="{{ generalPartner['Current ECV at Share'] }}"></td>
+								<td>Current ECV</td><td><input type="text" name="Current ECV at 100%" value="{{ generalPartner['Current ECV at 100%'] }}" placeholder="{{ generalPartner['Current ECV at 100%'] }}"></td><td><input type="text" name="Current ECV at Share" value="{{ generalPartner['Current ECV at Share'] }}" placeholder="{{ generalPartner['Current ECV at Share'] }}"></td>
 							</tr>																											
 																															
 					</table>
@@ -106,6 +106,7 @@
 							<tr>
 								<td class="img-cell">
 										<img src="{{url_for('static', filename= generalPartner['image'])}}" alt="property">
+										<input type="text" name="image" value="{{ generalPartner['image'] }}" hidden>
 								</td>
 							</tr>																																																										
 					</table>

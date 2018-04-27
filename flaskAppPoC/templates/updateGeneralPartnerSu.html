@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>{{t}}</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+	</head>
+<body>
+	<div class="header">
+	<p class="header-line">{{h}}</p>
+	<p class="header-line">{{ generalPartner['portfolio'] }} - {{ generalPartner['property'] }}</p>
+	<p class="header-line">General Property Information</p>
+	</div>
+	<form action="/update" method="POST">
+	<input type="text" name="_id" value="{{ generalPartner['_id'] }}" hidden>
+	<table style="margin-top:10px">
+		<tr>
+			<td style="vertical-align:top;">
+				Record updated successfully!
+			</td>
+		</tr>
+
+	</table>
+	<br/>
+
+	</form>
+	<a href="/">Return to General Partner List</a>
+</body>
+</html>

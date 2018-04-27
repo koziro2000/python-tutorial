@@ -26,7 +26,7 @@ def convert_pdf_to_html(path):
     codec = 'utf-8'
     laparams = LAParams()
     device = HTMLConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
-    fp = open('samplePdf.pdf', 'rb')
+    fp = open(path, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
     password = ""
     maxpages = 0 #is for all
@@ -40,8 +40,16 @@ def convert_pdf_to_html(path):
     retstr.close()
     return str
 
-
-endResultHtml = convert_pdf_to_html(path = 'samplePdf.pdf')
-
-with open("Output.html", "w") as text_file:
+fileName = 'samplePdf.pdf'
+outputFileName = "samplePdf.html"
+endResultHtml = convert_pdf_to_html(path = fileName)
+with open(outputFileName, "w") as text_file:
     print("{}".format(endResultHtml), file=text_file)
+
+
+fileName = 'black.pdf'
+outputFileName = "black.html"
+endResultHtml = convert_pdf_to_html(path = fileName)
+with open(outputFileName, "w") as text_file:
+    print("{}".format(endResultHtml), file=text_file)
+
